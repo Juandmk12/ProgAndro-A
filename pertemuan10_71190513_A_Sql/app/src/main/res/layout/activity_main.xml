@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint=" Masukkan Nama" />
+
+    <EditText
+        android:id="@+id/edtUsia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="number"
+        android:hint="Masukkan Usia" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_marginTop="20dp"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:text="Hapus" />
+
+    <Button
+        android:id="@+id/btnCari"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:text="Cari" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Data : "
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvHasil"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Hasil Pencarian : "
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvHasilCari"
+        android:textSize="20sp" />
+
+</LinearLayout>
